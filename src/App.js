@@ -4,6 +4,7 @@ import "./App.css";
 import Food from "./components/Food/Food";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
+import NotFound from "./components/NotFound/NotFound";
 import FoodProvider from "./context/FoodProvider";
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route exact path="/">
             <Food></Food>
+          </Route>
+          <Route exact path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </BrowserRouter>

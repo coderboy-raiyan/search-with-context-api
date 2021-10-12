@@ -8,7 +8,7 @@ const Food = () => {
   return (
     <Container>
       <Row className="g-4 my-5">
-        {foods.map((food) => (
+        {foods?.map((food) => (
           <SingalFood food={food} key={food.idMeal} />
         ))}
       </Row>
