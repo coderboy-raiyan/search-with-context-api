@@ -19,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <Navbar className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+    <Navbar bg="dark" expand="lg" variant="dark" className=" p-3">
       <Container>
         <Link class="navbar-brand fw-bold" to="/">
           FoodSearch
