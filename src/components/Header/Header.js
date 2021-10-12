@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <Navbar bg="dark" sticky="top" expand="lg" variant="dark" className=" p-3">
       <Container>
-        <Link class="navbar-brand fw-bold" to="/">
+        <Link className="navbar-brand fw-bold" to="/">
           FoodSearch
         </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -31,13 +31,13 @@ const Header = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <li class="nav-item">
-              <Link class="nav-link" to="/home">
+            <li className="nav-item">
+              <Link className="nav-link" to="/home">
                 Home
               </Link>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/food">
+            <li className="nav-item">
+              <Link className="nav-link" to="/food">
                 Meals
               </Link>
             </li>
